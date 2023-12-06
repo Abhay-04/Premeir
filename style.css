@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: #f8f8f8;
+  position: relative;
+  padding-top: 0.1px;
+}
+#nav {
+  width: 100%;
+  height: 10vh;
+  /* background-color: red; */
+  margin-top: 40px;
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#nav h1 {
+  /* background-color: rgb(115, 255, 0); */
+  height: 100%;
+  width: 23%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: monument;
+  font-size: 45px;
+  letter-spacing: -1px;
+}
+
+#nav h2 {
+  /* background-color: rgb(179, 255, 0); */
+  height: 100%;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 2px solid #000;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+#nav h2:nth-last-child(1) {
+  width: 10%;
+}
+
+#nav h2:nth-last-child(2) {
+  width: 28%;
+}
+
+#center {
+  width: 100%;
+  height: 89vh;
+  /* background-color: red; */
+  padding: 3vw;
+  position: relative;
+}
+
+#content {
+  width: 100%;
+  height: 100%;
+  /* background-color: blue; */
+  position: relative;
+}
+
+#content video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#overlay {
+  width: 100%;
+  height: 55%;
+  /* background-color: red; */
+  position: absolute;
+  bottom: 0;
+  padding: 3vw;
+  color: #fff;
+}
+
+#over1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 1vw;
+}
+
+#over1 h1 {
+  font-family: monument;
+  font-size: 3.6vw;
+}
+
+#over1 h2 {
+  font-size: 1vw;
+  /* background-color: blue; */
+  border: 1.5px solid #fff;
+  padding: 2vw 2.2vw;
+  border-radius: 50%;
+}
+
+#over2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 2px solid #fff;
+  padding: 1.5vw 0;
+}
+
+#over2 h4 {
+  font-size: 2vw;
+  font-weight: 500;
+}
+
+#over2 img {
+  height: 3vw;
+}
